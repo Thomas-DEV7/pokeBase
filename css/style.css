@@ -11,6 +11,21 @@ body{
   height: 100%;
   background-attachment: fixed;
 }
+header{
+  justify-content: center;
+}
+.logo-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #000;
+  padding: 15px;
+  width: 100%;
+}
+.logo-text img{
+  height: 50px;
+}
 main{
   display: flex;
   flex-direction: column;
@@ -67,4 +82,9 @@ main{
   background-color: #ff2222;
   border-radius: 20px;
   border: none;
+}
+footer{
+  color: #000;
+  text-align: center;
+  margin-top: 100px;
 }
