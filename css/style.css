@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  background-image: url('/bg.jpg');
+  /* background: linear-gradient(to top, red, cyan); */
+  height: 100%;
+  background-attachment: fixed;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 98%;
+  height: 100%;
+}
+.content{
+  background-color: #000000ab;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.pokemon__image {
+  height: 200px;
+  width: 200px;
+}
+
+.pokemon__data {
+  background-color: #fdfdfd;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.pokeName {
+  font-family: monospace;
+  
+}
+
+.form {
+
+}
+
+.input__search {
+  font-size: 30px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  width: 50%;
+  padding: 20px;
+  color: white;
+  background-color: #ff2222;
+  border-radius: 20px;
+  border: none;
+}
